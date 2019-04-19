@@ -1,12 +1,8 @@
 apps:
   - script   : ./app.js
     name     : 'api-app'
-    instances: 4
-    exec_mode: cluster
-  # - script : ./worker.js
-  #   name   : 'worker'
-  #   watch  : true
-  #   env    :
+    instances: 1
+    exec_mode: fork
       NODE_ENV: development
     env_production:
       NODE_ENV: production

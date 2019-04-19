@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start_old": "pm2-docker start process.yml",
-    "start": "node app.js"
+    "start": "node app.js",
+    "start_node": "node app.js"
   },
   "author": "",
   "license": "ISC",
